@@ -1,0 +1,43 @@
+
+h1 {
+    color: rgb(18, 18, 214);
+    
+}
+
+.container {
+    margin: 0% 30%;
+    text-align: center;
+    background-color: lightblue;
+    font-size: 160%;
+}
+
+.container p {
+    font-weight: bold;
+}
+
+.container span {
+    color: blue;
+}
+
+
+.devices {
+    background-color: beige;
+    display: flex;
+    flex-wrap: wrap;
+   
+
+}
+.devices img {
+    width: 100%;
+    height: auto;
+}
+.dev { /* flex item*/
+    border: dashed 2px red;
+    flex: 49%;
+}
+
+button{
+    background-color: lightblue;
+   font-weight: bold ;
+}
+
